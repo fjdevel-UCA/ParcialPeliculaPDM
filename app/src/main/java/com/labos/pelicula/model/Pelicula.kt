@@ -1,7 +1,6 @@
 package com.labos.pelicula.model
 
-
-data class Movie(
-    val title: String,
-    val director: String
+data class Pelicula(
+    var titulo: String,
+    var director: String
 )
